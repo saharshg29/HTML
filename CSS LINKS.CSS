@@ -1,0 +1,19 @@
+/* Link notVisited */
+a:link{
+    color: brown;
+}
+
+/* Link Visited */
+a:visited{
+    color: chartreuse;
+}
+
+/* Link Hover */
+a:hover{
+    color:cornflowerblue;
+}
+
+/* Link Activated */
+a:active{ 
+    color:darkgoldenrod;
+}
