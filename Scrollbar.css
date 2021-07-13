@@ -1,0 +1,12 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.Twinkle{
+    height: 200px;
+    width: 200px;
+    color: black;
+    background-color: red;
+    overflow: auto;
+}
