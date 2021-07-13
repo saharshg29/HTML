@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    color: teal;
+    float: none;
+}
+#vessel1{
+    height: 30px;
+    width: 30%;
+    background-color: yellow;
+    color: red;
+    float: left;
+    text-align: center;
+}
+#vessel2{
+    height: 30px;
+    width: 70%;
+    background-color: rgb(0, 38, 255);
+    color: red;
+    float: right;
+}
+ul{
+    list-style: none;
+    direction: rtl;
+}
+
+li{
+    display: inline-block;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: cornsilk;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+img{
+    image-resolution: 50px;
+}
