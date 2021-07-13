@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#father{
+    height: 400px;
+    width: 400px;
+    background-color: rgba(255, 0, 0, 0.822);
+    border-color: rgb(255, 251, 0);
+    border-width: 50px;
+    position: relative;
+}
+
+.son1{
+    height: 50px;
+    width: 50px;
+    background-color: salmon;
+    padding: 5px;
+    position: absolute;
+    left:0px ;
+}
+.son2{
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    padding: 5px;
+    position: absolute;
+    right:0px ;
+}
+.son3{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(1, 255, 234);
+    padding: 5px;
+    position: absolute;
+    bottom: 0px;
+}
+.son4{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: blanchedalmond;
+    padding: 5px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+
+}
+.son5{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(1, 255, 234);
+    padding: 5px;
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    left: 50%;
+    top: 50%;
+}
