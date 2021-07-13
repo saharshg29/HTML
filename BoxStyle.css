@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#BoxModel{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    color: royalblue;
+    border-color: blue;
+    border-width: 5px;
+}
+
+input{
+    padding: 2px;
+    margin: 20px;
+}
+
+/* The only differnce between padding and margin is that 
+    padding is the inner area
+    whereas margin is the external area
+    around a border */
+
+button{
+    padding: 20px;
+    margin: 25px;
+}
