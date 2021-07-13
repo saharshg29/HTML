@@ -1,0 +1,14 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.BorderCSS{
+    width: 200px;
+    height: 200px;
+    background-color: chartreuse;
+    border: red;
+    border-width: 5px;
+    border-style: dotted;
+    border-radius: 10px;
+}
