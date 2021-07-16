@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-attachment: scroll;
+}
+
+.logo{
+    border-right: 2px red solid ;
+    background-color: yellow;
+    height: 100px; width: 30%; 
+    color: darkblue;
+    text-align: center;
+    text-transform: capitalize;
+    position: absolute;
+}
+
+.menu{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5y5hEMn4ePIAGvPBwOB9bVv8k_ipmsfE2L5dQW8vzwoM64Cv4Ty3y7SvEeDpQucD3vp4&usqp=CAU');
+    color: rgb(247, 29, 83);
+    float: right; 
+    text-transform: capitalize; 
+    position: absolute right ; 
+    width: 70%; height: 100px;
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+href .menu{
+    color: red;
+}
+.header{
+    border: 2px red solid;
+    background-color: black;
+    color: linen;
+    height: 100px; width: 100%;
+    position: relative;
+}
+
+a{
+    display: inline-block;
+    margin: 2px;
+    padding: 2px;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 28px;
+}
+button{
+    background-color: turquoise;
+    float: right;
+    margin: 10px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+.content{
+    color: red;
+    height: 100%;
+    width: 100%;
+    background-repeat:no-repeat ;
+    background-image: url('https://images.pexels.com/photos/1631677/pexels-photo-1631677.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+    background-size: cover;
+}
+
+.twinkle{
+    border: 2px solid;
+    border-color: rgb(35, 38, 245);   
+    height: 200px;
+    background-color: springgreen;
+    color: rgb(19, 37, 139);
+    width: 200px;
+    overflow: clip;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.body{
+    height: 300px;
+    width: 300px;
+    color: red;
+    font-size: 32px;
+    border: rebeccapurple 5px solid;
+    border-radius: 2px;
+    background-image: url('https://www.designyourway.net/blog/wp-content/uploads/2020/04/1Sunset-Background-A-digital-design.jpg');
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+}
+
