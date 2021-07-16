@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <title>FORMS</title>
+</head>
+
+<!-- Always use POST metod instead of GET method because POST method is much more secure than GET method  -->
+
+<body bgcolor="aqua">
+    <h1>Ok Boi.... Lets talk about Forms in HTML</h1>
+
+    <form name="Registration Form" method="POST">
+        <!-- There are three kinds of Input Boxes..... These are Text fields Passwords and Large Text fields -->
+        <!-- id and name are the two must have attributes of input tag and these two attributes must hold the same value in all the cases  -->
+
+        first name : <input type="text" id="firstname" name="firstname" size="20%" maxlength="20" minlength="2">
+        <br><br><br>
+        password : <input type="password" name="password" id="password" minlength="8" size="20%">
+        <br><br><br>
+        Gender : Male<input type="radio" name="gender" id="gender" value="Male"> Female<input type="radio" name="gender"
+            id="gender" value="Female">
+        <br><br><br><br>
+        Class : <input type="radio" name="Class" id="Class" value="X"> X <input type="radio" name="Class" id="Class"
+            value="XI"> XI<input type="radio" name="Class" id="Class" value="XII">XII
+
+        <br><br><br>
+
+        Choose your Hobbies : <input type="checkbox" name="Hobby" id="Hobby" value="Music"> Music
+        <input type="checkbox" name="Hobby" id="Hobby" value="Dance">Dance
+        <input type="checkbox" name="Hobby" id="Hobby" value="Cricket">Cricket
+        <input type="checkbox" name="Hobby" id="Hobby" value="Chess" checked="checked">Chess
+        <br><br><br>
+        Month : <select name="Month" id="Month">
+            <option value="Month">January</option>
+            <option value="Month">February</option>
+            <option value="Month">March</option>
+            <option value="Month">April</option>
+            <option value="Month">May</option>
+            <option value="Month">June</option>
+            <option value="Month">July</option>
+            <option value="Month">August</option>
+            <option value="Month">September</option>
+            <option value="Month">October</option>
+            <option value="Month">November</option>
+            <option value="Month">December</option>
+        </select>
+        <br><br><br>
+        Hobbies : <select name="Hobbies" id="Hobbies" multiple="multiple">
+         <optgroup label="Sport">   <option value="Hobbies">Cricket</option>
+            <option value="Hobbies"> Football</option>
+            <option value="Hobbies">Chess</option> </optgroup>
+            <option value="Hobbies">Dance</option>
+        </select>
+        <br><br><br>
+        Feedback
+        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+
+
+    </form>
+</body>
+
+</html>
