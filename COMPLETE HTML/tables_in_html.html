@@ -14,8 +14,12 @@ all this things are used inside <table></table> tags -->
 <!-- <tbody></tbody> means table body. this tag defines the body of our table-->
 <!-- width attriibute is used to give the width of our table  -->
 <!--bgolor attribute can be used to give the background colour to cell row or column  -->
+<!-- cellspacing and cellpadding are good attributes of table tag which can be used to efficiently design forms these attribute help us to set the space between cells and inside the cells respectively-->
+
+
+
     <body>
-        <table bgcolor="black" border="2" align="center" width="40%">
+        <table cellpadding="15px" cellspacing="1px" bgcolor="black" border="2" align="center" width="100%">
             <caption>this tag is used to give title to our table</caption>
             <thead bgcolor="yellow">
                 <tr><th> This is the header of your table</th></tr>
@@ -36,6 +40,30 @@ all this things are used inside <table></table> tags -->
             </tbody>
         </table>
 
+<br> <br> <br> <br> <br> <br> <br>
+<!-- colspan and rowspan are the attributes used for merging rows and columns 
+and making our table look beautiful in a better form -->
+        <table border="5" bgcolor="pink" width="50%">
+            <tr><th colspan="3">Winner Teams of ICC TEST Championship</th></tr>
+            <tr><td>Rank</td> <td>Team Name </td> <td>Captain</td></tr>
+            <tr><td>1 <sup>st</sup></td> <td>New Zealand</td> <td>Kane Williamson</td></tr>
+            <tr><td>2 <sup>nd</sup></td> <td>India</td> <td>Virat Kohli</td></tr>
+            <tr><td>3 <sup>st</sup></td> <td>Australia</td> <td>Tim Paine</td></tr>
+            <tr><th colspan="3">Winner of Euro-2021 and Copa-2021</th></tr>
+            <tr><td>1 <sup>st</sup></td> <td>Italy</td> <td>Romelu Lukaku</td></tr>
+            <tr><td>1 <sup>st</sup></td> <td>Argentina</td> <td>Lionel Messi</td></tr>
+        </table>
+
+<br> <br> <br> <br> <br> <br> <br>
+
+        <table border="8px" bgcolor="aqua" width="100%">
+            <tr> <th rowspan="6"> CRICKRT TOURNAMENT</th> <th>TOURNAMENT</th> <th>Rank</th> <th>Country</th> <th> Captain</th></tr>
+            <tr><td>1983 ICC World cup</td> <td>1 <sup>st</sup></td> <td>India</td><td>Kapil Dev</td> </tr>
+            <tr><td>2003 ICC World cup</td> <td>2 <sup>nd</sup></td> <td>India</td><td>Sourav Ganguly</td></tr>
+            <tr><td>2007 ICC T-20 World cup</td> <td>1 <sup>st</sup></td> <td>India</td><td>Mahendra Singh Dhoni</td></tr>
+            <tr><td>2011 ICC World cup</td> <td>1 <sup>st</sup></td> <td>India</td><td>Mahendra Singh Dhoni</td></tr>
+            <tr><td>2013 ICC Champions Trophy</td> <td>1 <sup>st</sup></td> <td>India</td><td>Mahendra Singh Dhoni</td></tr>
+        </table>
 
     </body>
 </html>
