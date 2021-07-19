@@ -2,3 +2,102 @@
     color: blue;
     font-size: x-large;
 }
+
+/* there are three ways of implementing css to your html document */
+/* priority wise they can be given as inline css.... interanl css.... and external css */
+/* external implemetation is mostly prefferd becuase it can be implemented into any number of html document */
+/* external implementation requires us to link our css document with our html code */
+
+/*  (*) asterisk selector commonly known as universl selector is used to implement css in complete html file */
+/* to access an id from our HTML document we start the id name with (#) hashtag */
+/* to access a class from our HTML document we start the class name with a (.) dot */
+/* descendent selector means accessing something something inside something 
+first write the external tag and then  write the nested in tag  */
+
+/* same css can be applied too different elements of html by seperating the selectors with comma(,) */
+
+/* adjacent selector uses (+) operator to link two elements from your html document 
+    adjacent operator can be considered as a relative selector. for example let [h1+p] be an 
+    adjacent selector so in these case the css property will be applied to only those <p> tag
+    which are just adjacent to <h1> tag. adjacent tag can be very helpful in targetting a particular tag in your HTML document  */
+
+/* child selector uses (>) operator to link a tag inside another tag. Child selector is also a kind of relative tag as it is only applied to those 
+    thsoe tags which are inside a particular tag. For example when we use this given child selector [div>p] the css code will only be applied to those 
+    <p> tag which are present inside the <div> tag. child selector can also play very important role in selecting a tag within some particular tag */
+
+/* property selector () uses data type name or any other property of any tag as an property of any element. TO acess this from css
+    we need to write the data type used in tag property within square braces.
+    data-type property is available with various HTML tags like anchor <a> tag image<img> tag etc 
+    property tag can said to be working as an conditional statement*/
+
+/* pseudo elements are of different types which are mostly used with anchor <a> tag but can also be used with paragraph <p> tag and many more
+    to change its color. Pseudo elements are accessed by using colon[:]  */
+
+/* pseudo elemrnts are of differernt types these are as follow: 
+        --> link state
+        --> active state
+        --> visited state
+        --> hover state  */
+
+/*  pseudo element not are used to eliminate a particular tag from our html document by mentioning it inside curly braces {}
+    which are being followed by (.not) */
+
+/* :first-child attribute is used to customize the first item of any list div p or any other external tag */
+/* :last-child attribute are used to customize the last element of any list div p or any other external tag */
+/* :first-child works just opposite of :last-child */
+/* :only-child attribute is used to customize the only element of any div or list */
+
+/* ::first-line attribute of css is used to customize first letter */
+/* ::first-letter attribute of css is used to customize first letter  */
+/* :nth-child() attribute is used to customize or target a particular tag inside a parent tag */
+/* :nth-last-child() attribute is used to customize or target a particular tag from last of parent child */
+/* :nth-of-type() attribute is used to target a particular target of a particular type */
+
+/* font cuatomization  */
+/* font-family define the font type of a text */
+/* font-size is used to change the size of accessible text */
+/* font-style  tag is used to change the style of the accessible text */
+/* font-weight is used to change the weight of accessible font */
+/* color property is used to change the color of an accessible text */
+/* line-height property is used to define the height between two line of accessible text */
+/* word-spacing property is used to change the space between two words of accessible text */
+/* text-decoratioin property is used to decorate the accessible text....
+    this property can withhold four values these are..... 
+        1) noone -- no use of line
+        2) underline -- to underline the accessible text
+        3) overline -- to have a line above the accessible text 
+        4) line-through -- to strikethrough the accessible text */
+/* text-indent property is used to give indentation before the accessible text */
+/* text-align property is used to align the accessible text in particular way
+    text-align can also withhold 4 differernt values
+        1)left
+        2)right
+        3)center
+        4)justify */
+/* vertical-align property is used to align the accessible text vertically
+    verical alignmrnt can withhold two different values 
+        1) super --- superscript
+        2) sub --- subscript*/
+
+/* to give border to accessible text we use border property of css border property in css have many sub properties such as
+    color radius style directions [right, left, top, bottom] */
+
+/* margin property is used to maintain athe exteranl area [i.e. external area with respect to border] from the screen */
+/* padding property is jsut opposite of margin. Margin property is used to maintain the interanal area wrt to border */
+/* margin and padding can also be customized seperately by mrntioning the required direction [right, left, top, bottom] followed by hyphen (-) */
+
+/* List customization using CSS */
+/* list-style-stype property is used to change the style of ordering charachters */
+/* lsit-style-image property is used to insert an image in place of an ordered charachter */
+
+/* insserting an background color require using of background-color property and background-image property  */
+
+/* background-repeat property allow us to control how do we want our background image to repeat in our html document */
+/* background-position property is used to define the position of the image used in our html document */
+/* repeat-x means repeating horizontally */
+/* repeat-y means repeating vertically */
+
+/* background attachment tag is used to fix the background with our screen
+        it can withstand two differnet values fixed  and scroll */
+
+/*  */
