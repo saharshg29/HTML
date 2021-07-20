@@ -100,4 +100,40 @@ first write the external tag and then  write the nested in tag  */
 /* background attachment tag is used to fix the background with our screen
         it can withstand two differnet values fixed  and scroll */
 
+/*  display property can hold four values
+    1) inline
+    2) block
+    3) inline-block
+    4) none */
+
+    /* display property is used mainly on ordered list and unordered list in order to make navigation system */
+
+/* opacity property of css is used to maintain the opacity of accessible element of our html 
+    opaciity value can hold any element within the range of [0, 0.1,-------,1 ] */
+
+/* overflow property of css is used to limit the ammount of content visible within our  border 
+    overflow property can also have 4 values
+        1) hidden
+        2) visible
+        3) scroll
+        4) auto */
+
+/*  some properties related to background
+    background-color  ::  to give background color to accessibble part
+    background-repeat   ::  to customize whther to reppeat or not your background imange
+    background-image  ::  to set a background image to accessible part 
+    background-position  :: to set the positiion of bckground elemnet with respect to either of x or y axis 
+    background-attachment  ::  to customize how do you want your accessiblle element to behave shall it remain fixed at its position or keep scrolling 
+    background-origin  ::  allows us to set how do we want our bacckground element to be present it can also have 4 values border-box padding-box content 
+    background-set  ::  allow us to set the size of our background element
+    */
+
+/* setting multiple background to our HTML element
+    just give the source path of images we want to use as our background images followed by a comma(,) */
+
+/* border radius effect using CSS gives us a curve corner of our border  */
+/* box shadow effect is used to give an overshadow effect to our divsion
+        it requires 5 value in given order 
+                x-value, y-value, blur-value, spread-value, color-value */
+
 /*  */
