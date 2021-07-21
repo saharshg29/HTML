@@ -136,4 +136,53 @@ first write the external tag and then  write the nested in tag  */
         it requires 5 value in given order 
                 x-value, y-value, blur-value, spread-value, color-value */
 
-/*  */
+/* CSS stands for cascading style sheet */
+
+/* border imagae in CSS usually requires three values 
+        image path 
+        outset -- whether do you want to stretch your border image
+        repeat and no-repeat */
+
+/* go to google..... search for border image generator.... visit border image generator tool for css by mozila for developer */
+
+/* CSS TRANSITION EFFECT*/
+    /* we need to give two differnet sets of style to our HTML document  */
+    /* first group will be available in normal state whereas the second set will be the special one */
+    /* transition effect is always applied to the original style of CSS  */
+    /* transition property is useds to specify where actually do you want to apply the transition effect. It can have single or multiple values */
+        /* transition delay is used to determine the delay you want for transition effect to get applied */
+        /* transition duration is used to give the duration for how long do you want your transition state to last long for */
+        /* transition-timing-function have aa lot of different values but ease and linear are two most widdely used value of timing function */
+
+/* CSS ANIMATION EFFECT */
+    /* key frames property of CSS is used to create the animation in our HTML documents followed by a unique name to our animation 
+        from{} and to{} property are used to determine the initial and fianal stage of our aniamtion */
+        /* to use the animation effect with our HTML element use the animation property followed by the unique animation id */
+        /* animation property in HTML can hold different values such as time duration of animation no of times animaiton should be repeated and to make the animatio work smooth in infine loop use infinite keyword alongwith the alongwith keyword */
+
+    /* PROPERTY of ANIMAITON */
+        /* animation-name */
+        /* animatio -duration */
+        /* animation-iteration-count */
+        /* animation-direction [normal, reverse, alternate] */
+        /* animation-timing-function [ease, linear, ease-in, ease-out] */
+        /* animation-play-state [pla, pause] {can be used easily with javascriot buttons} */
+
+
+/* BEM standard in CSS stand for Block Element Modifier. This is a basic namin conventin for CSS class */
+    /* Components are the individual block in a webpage */
+    /* clalsses inserted inside a block is called block classes */
+    /* common naming convention is [parentname__childnamae] */
+    /* preffix = parentname...... followed by __(2-hyphens)..... suffix = childname */
+        /* Using BEM standard increases teh redability of our code */
+
+/*  CSS Media Queries are the featur of CSS to make the web content adaptive to different devices */
+    /* media query is initiallised by 
+        @media[media- tyoe]{__CSS CODE__}
+        media type can hold three different values [scrren, print, speech] */
+
+    /* MEDIA Queries for Screen..... */
+    /* @media screen and {min/ max/ or both width} {__CSS_CODE__} */
+
+
+/* FLEXBOX layout module is the CSS3 layout modules which makes it easy to design flexible and responsive HTML5 web and app structure without using CSS flpat and position properties */
