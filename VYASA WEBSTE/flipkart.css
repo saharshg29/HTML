@@ -112,5 +112,12 @@
 .header-2{
     height: 100px;
     width: 100%;
-    background-color:yellow;
 }
+
+.header-2>ul>li{
+    display: inline-block;
+    text-decoration-style: none;    
+    padding: 2px;
+    margin: auto;
+}
+
