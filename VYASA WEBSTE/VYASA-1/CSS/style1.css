@@ -26,15 +26,19 @@ header{
     box-sizing: border-box;
 }
 
+@keyframes motion {
+    from{background-image: linear-gradient(red,blue);}
+    to {background-image: linear-gradient(black, white);}       
+}
+
 .logo h1{
     text-transform: capitalize;
     font-size: 1.6rem;
-    animation: fb 2s linear infinite alternate;
+    animation-name: motion;
+    animation-duration: 2s;
+    animation-play-state: running;
+    animation-direction: alternate;
 }
-/* @keyframes fb {
-        from{padding-left: 40px;}
-        to {padding-right: 40px;}       
-} */
 
 nav{
     width: 60%;
@@ -103,7 +107,7 @@ main{
     height:3px ;
     position: absolute;
     top: 43%;
-    left: 23%%;
+    left: 23%;
     background-color: #000;
 }
 
@@ -135,6 +139,7 @@ main{
     background-image: linear-gradient(to right aqua 0%, tomato 100%);
     border: double 2px transparent;
     box-shadow: 0 10px 30px; rgba(118,85,225,.3);
+    
 }
 
 .leftside .btn-1 :hover{
@@ -142,4 +147,26 @@ main{
     color: #222;
     background-image: skyblue;
     box-shadow: none;
+}
+
+.gallery-right{
+    height: 500px;
+    width: auto;
+}
+
+.galery-right img{
+    height: 200px;
+    width: 200px;
+    border: cadetblue 2px dotted;
+    display: flex;
+}
+.gallery-right ul li{
+    display: inline-block;
+    position: left;
+    justify-content: y;
+}
+
+.gallery-img{
+    height: 200px;
+    width: auto;
 }
