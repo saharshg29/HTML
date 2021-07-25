@@ -1,0 +1,136 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#navigation{
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo{
+    line-height: 100px;
+    width: 30%;
+    background-image: radial-gradient(  black, white);
+    border-top: oldlace 2px ;
+    border-bottom: paleturquoise 2px;
+    text-align: center;
+    color: gold;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+#menu{
+    line-height: 30vh;
+    text-align: center;
+    width: 70%;
+    border-bottom: 5px blue ;
+    border-left:5px turquoise;
+    font-size: 7vh;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    background-color: brown;
+    text-transform: capitalize;
+}
+
+a{
+    text-decoration: none;
+    color: violet;
+}
+
+body{
+    background-color: darkturquoise;
+}
+
+#above{
+    background-color: darkorchid;
+    height: 80%;
+    width: 100%;
+}
+
+#below{
+    background-color: whitesmoke;
+    height: 20%;
+    width: 100%;
+}
+
+#above ::before{
+    width: 0%;
+    position: absolute;
+    top: -48px;
+    left: 0;
+    background: rgb(2, 94, 25);
+    transform: skewY(8deg);
+}
+
+#above ::after{
+    width: 100%;
+    position: absolute;
+    top: -48px;
+    right: 0;
+    background: rgb(2, 94, 25);
+    transform: skewY(-8deg);
+
+}
+
+#left-side{
+    height: 50vh;
+    width: 50%;
+    float: left;
+}
+
+#right-side{
+    float: right;
+    height: 50vh;
+    width: 50%;
+}
+
+h1{
+    color: fuchsia;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 70px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+p{
+    font-size: 30px;
+    font-weight: 800;
+    color: hotpink;
+    text-transform: capitalize;
+    background-color: indigo;
+    text-align: center;
+}
+
+#btn-1{
+    margin-top: 15px;
+    margin-left: 100px;
+    padding: 20px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#btn-2{
+    margin-top: 15px;
+    display: flex;
+    margin-left: 100px;
+    padding: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    display: inline-block;
+}
+
+a :first-child{
+    color: royalblue;
+}
+
+a :hover{
+    color: yellow;
+}
