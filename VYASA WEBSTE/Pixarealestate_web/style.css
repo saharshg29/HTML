@@ -1,19 +1,19 @@
 *{
-    margin:0;
-    padding:0;
-    font-family:verdana;
-  }
+  margin:0;
+  padding:0;
+  font-family:verdana;
+}
 
-  body{
-      background-color: white;
-  }
+body{
+  background-color: white;
+}
 
-  footer{
-      color: whitesmoke ;
-      padding-top: 10px;
-      height: 250px;
-      width: 100%;
-  }
+footer{
+  color: whitesmoke ;
+  padding-top: 10px;
+  height: 250px;
+  width: 100%;
+}
 
 #img-1{
   height: 40%;
@@ -57,7 +57,7 @@
   }
 
 
-.row .col-6 #nichekr{
+.row .col-6 #right{
   position: absolute;
   bottom: 0;
   right: 0;
@@ -193,7 +193,7 @@ nav ul li a{
 
 #card-1{
   position: absolute;
-  left: 28vw;
+  left: 20vw;
   top: 60vh;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -218,3 +218,6 @@ nav ul li a{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+#getonps{
+  width: 48vw;
+}

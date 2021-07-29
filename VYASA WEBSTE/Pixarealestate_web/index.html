@@ -4,6 +4,8 @@
     <title>Welcome : PixaRealstate</title>
 
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+    <link rel="stylesheet" type="text/css" href="mobile.css">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,7 +21,7 @@
     <div id="container-fluid">
 
         <nav>
-            <a href="#"> <img src="Assets\LOGO.png" alt=""></a>
+            <a href="#"> <img id="logo-top" src="Assets\LOGO.png" alt=""></a>
             <ul>
                 <li><a href="#"></a>Home</a></li>
                 <li><a href="#"></a>About</a></li>
@@ -155,8 +157,8 @@
 
                 <div class="row">
 
-                    <div class="col-6 ">
-                        <img src="Assets\testimonialbanner.png" style="size: 50px;" class="float-right" alt="">
+                    <div class="col-6" id="above-above-footer">
+                        <img src="Assets\testimonialbanner.png" id="testimonial" style="size: 50px;" class="float-right" alt="">
                         <br><br>
                     </div>
 
@@ -172,7 +174,7 @@
                         <br><br>
                         <div class="btn-group text-right" role="group" aria-label="Basic example">
                             <button type="button" class="btn btn-primary"><b>
-                                    << /b></button>
+                                    < </b></button>
                             <button type="button" class="btn btn-light"><b>></b></button>
                         </div>
                     </div>
@@ -185,12 +187,12 @@
                 <div class="row">
                     <div class="col-6">
 
-                        <img src="Assets\Mockup.png" class="rounded float-right" alt="">
-                        <img src="Assets\abstact1 - Copy.png" alt="">
+                        <img id="addvertisement" src="Assets\Mockup.png" class="rounded float-right" alt="">
+                        <img id="left" src="Assets\abstact1 - Copy.png" alt="">
 
                     </div>
 
-                    <div class="col-6">
+                    <div class="col-6" id="abovefooter">
                         <br><br>
                         <strong>
                             <h5 class="p-4">Download app to manage realstate in modern way !</h5 class="p-4">
@@ -207,7 +209,7 @@
                             <img class="rounded mx-auto d-block" src="Assets\getonplaystore.png" alt="">
                         </div>
 
-                        <img id="nichekr" src="Assets\abstact2 - Copy.png" class="float-right" alt="">
+                        <img id="right" src="Assets\abstact2 - Copy.png" class="float-right" alt="">
                     </div>
                 </div>
 
@@ -224,7 +226,7 @@
                 <div class="col-2">
                     <h3><strong style="padding-left: 30px; padding-top: 20px;">Logo</strong></h3>
                 </div>
-                <div class="col-2">
+                <div class="col-2 .d-md-none .d-lg-block" id="f-1">
                     <ul style="list-style-type: none;">
                         <li> <u>
                                 <h6>Quick Links</h6>
@@ -233,7 +235,7 @@
                         <li>About US</li>
                     </ul>
                 </div>
-                <div class="col-2">
+                <div class="col-2 .d-md-none .d-lg-block" id="f-2">
                     <ul style="list-style-type: none;">
                         <li> <u>
                                 <h6> Others</h6>
@@ -245,7 +247,7 @@
                         <li>Terms and Conditions</li>
                     </ul>
                 </div>
-                <div class="col-2">
+                <div class="col-2 .d-md-none .d-lg-block" id="f-3">
                     <ul style="list-style-type: none;">
                         <li> <u>
                                 <h6>Products</h6>
@@ -255,7 +257,7 @@
                         <li>Buy</li>
                     </ul>
                 </div>
-                <div class="col-4">
+                <div class="col-4 .d-md-none .d-lg-block">
                     <h6>Sucbscribe to our newsletter and be the first to know about our updates</h6> <br>
                     <form class="form-inline">
                         <label class="sr-only" for="inlineFormInputName2">Name</label>
@@ -269,6 +271,7 @@
             <hr class="border-light">
         </footer>
     </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
