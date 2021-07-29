@@ -9,9 +9,10 @@
   }
 
   footer{
-      background-color: rgb(0, 0, 255);
       color: whitesmoke ;
       padding-top: 10px;
+      height: 250px;
+      width: 100%;
   }
 
 #img-1{
@@ -45,38 +46,6 @@
   height: 50px;
   width: 20px;
   position: absolute;
-  
-}
-.container #section-1 .container .row .col-3{
-  position: relative;
-}
-
-.container #section-1 .container .row .col-3 #bottom-image{
-  position: absolute;
-  bottom: 0px;
-}
-
-.container #section-1 .container .row .col-4{
-  position: relative;
-}
-
-.container #section-1 .container .row #card-up{
-  position: absolute;
-  top: 20%;
-}
-
-.container #section-1 .container .row .col-5{
-  position: relative;
-}
-
-.container #section-1 .container .row .col-5 #iamge-bottom-section1{
-  position: absolute;
-  right: 0px;
-}
-
-footer{
-  height: 250px;
-  width: 100%;
 }
 
 .container-fluid{
@@ -201,3 +170,51 @@ nav ul li a{
   top: 250px;
   width: 50vw;
 }
+
+#main-content{
+  position: relative;
+  width: 100%;
+  height: 200vh;
+}
+
+.para-1{
+  position: absolute;
+  height: auto;
+  width: 30vw;
+  line-height: 1.5;
+  top: 150px;
+}
+
+#bottom-image{
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+}
+
+#card-1{
+  position: absolute;
+  left: 28vw;
+  top: 60vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#image-top{
+  position: absolute;
+  right: 0%;
+}
+
+#card-up{
+  position: absolute;
+  top: 150px;
+  right: 20vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#card-bottom{
+  position: absolute;
+  float: right;
+  right: 20vw;
+  bottom: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
