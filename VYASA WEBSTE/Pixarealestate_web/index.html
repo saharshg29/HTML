@@ -20,7 +20,7 @@
     <!-- NAVIGATION BAR ALONGWITH CAROUSEL IMAGE    [   -----------  -----------    COMPLETED   -----------  -----------   ] -->
     <div id="container-fluid">
 
-        <nav>
+        <nav class="navbar navbar-expand-lg navbar-expand-sm navbar-expand-xs navbar-expand-md">
             <a href="#"> <img id="logo-top" src="Assets\LOGO.png" alt=""></a>
             <ul>
                 <li><a href="#"></a>Home</a></li>
@@ -30,12 +30,15 @@
         </nav>
         <img src="Assets/heroback.png" id="img1" />
 
-        <h3 id="h3">PixaRealstate - Tagline</h3>
-        <p id="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tempora, delectus quo vel, iste eius
-            illum
-            debitis itaque at architecto vero repudiandae velit harum beatae dolorem rem, accusamus minima fugit?
-        </p>
-        <a href=""><img src="Assets\getonplaystore_hero.png" alt="" id="img3"></a>
+        <div id="img-over-txt">
+            <h3 id="h3">PixaRealstate - Tagline</h3>
+            <p id="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse tempora, delectus quo vel, iste eius
+                illum
+                debitis itaque at architecto vero repudiandae velit harum beatae dolorem rem, accusamus minima fugit?
+            </p>
+        </div>
+
+        <a href=""><img src="Assets\getonplaystore_hero.png" alt="play_button" id="img3"></a>
         <img src="Assets\hero_image.png" id="img2" />
 
     </div>
@@ -48,34 +51,19 @@
                 <!-- COLUMN-1  -->
 
                 <h3 class="para-1">
-                   <b>What we do to help brokers in this digital era.</b> 
+                    <b>What we do to help brokers in this digital era.</b>
                 </h3>
-                <section id="bottom-image">
-                    <img style="vertical-align: middle;" src="Assets\abstact2.png" alt="">
+                <section>
+                    <img id="bottom-image" style="vertical-align: middle;" src="Assets\abstact2.png" alt="">
                 </section>
 
-                <!-- COLUMN-2  -->
-                <!-- CARD-1-->
-                <div id="card-1" class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="Assets\card2icon.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the
-                            bulk
-                            of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-
-                <!-- COLUMN-3  -->
                 <img id="image-top" src="Assets\abstact1.png" alt="">
 
                 <!-- CARD-1 of 2 -->
                 <div class="card " id="card-up" style="width: 18rem;">
                     <img class="card-img-top" src="Assets\card1icon.png" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Send</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the
                             bulk
                             of
@@ -88,7 +76,7 @@
                 <div class="card" id="card-bottom" style="width: 18rem;">
                     <img class="card-img-top" src="Assets\card3icon.png" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Buy</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the
                             bulk
                             of
@@ -97,6 +85,17 @@
                     </div>
                 </div>
 
+                <div id="card-1" class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="Assets\card2icon.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Recieve</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the
+                            bulk
+                            of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
 
             </div>
         </section>
@@ -105,13 +104,13 @@
     <!-- SECOND SECTION BEGINS HERE [   -----------  -----------    COMPLETED   -----------  -----------   ]  -->
     <div class="container-fluid m-0 p-0">
 
-        <section id="section-2" style="background-color: paleturquoise;">
+        <section id="section-2">
             <div>
                 <h4 class="text-center ">How it works</h1>
             </div>
             <div>
                 <div class="row">
-                    <div class="col-sm">
+                    <div class="col col-lg col-xl col-sm col-md">
                         <img id="img-1" class="rounded mx-auto d-block" src="Assets\hiw1.png" alt="">
                         <div class="container-fluid text-center">
                             <b class="text-center">Create an account</b>
@@ -121,7 +120,7 @@
                         </div>
 
                     </div>
-                    <div class="col-sm">
+                    <div class="col col-lg col-xl col-sm col-md-4">
                         <img id="img-2" class="rounded mx-auto d-block" src="Assets\hiw2.png" alt="">
                         <div class="container-fluid text-center">
                             <b class="text-center">Get authorization</b>
@@ -131,7 +130,7 @@
                         </div>
 
                     </div>
-                    <div class="col-sm">
+                    <div class="col col-lg col-xl col-sm col-md-4">
                         <img id="img-3" class="rounded mx-auto d-block" src="Assets\hiw3.png" alt="">
                         <div class="container-fluid text-center">
                             <b class="text-center">Enjoy the app</b>
@@ -157,13 +156,14 @@
 
                 <div class="row">
 
-                    <div class="col-6" id="above-above-footer">
-                        <img src="Assets\testimonialbanner.png" id="testimonial" style="size: 50px;" class="float-right" alt="">
+                    <div class="col-6 col-lg col-xl col-sm col-md-4" id="above-above-footer">
+                        <img src="Assets\testimonialbanner.png" id="testimonial" style="size: 50px;" class="float-right"
+                            alt="">
                         <br><br>
                     </div>
 
 
-                    <div class="col-6 " style="padding-top: 100px;">
+                    <div class="col-6 col-lg col-xl col-sm col-md-4 " style="padding-top: 100px;">
                         <br><br>
                         <img id="quotes" src="Assets\testimonial_icon.png" alt="">
                         <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae hic mollitia eligendi
@@ -185,14 +185,14 @@
                 <br><br><br>
 
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-6 col-lg col-xl col-sm col-md-4 ">
 
                         <img id="addvertisement" src="Assets\Mockup.png" class="rounded float-right" alt="">
                         <img id="left" src="Assets\abstact1 - Copy.png" alt="">
 
                     </div>
 
-                    <div class="col-6" id="abovefooter">
+                    <div class="col-6 col-lg col-xl col-sm col-md-4" id="abovefooter">
                         <br><br>
                         <strong>
                             <h5 class="p-4">Download app to manage realstate in modern way !</h5 class="p-4">
@@ -206,7 +206,7 @@
                             </p>
                         </b>
                         <div class="container">
-                            <img class="rounded mx-auto d-block" src="Assets\getonplaystore.png" alt="">
+                            <img class="rounded mx-auto d-block" id="getbottom" src="Assets\getonplaystore.png" alt="">
                         </div>
 
                         <img id="right" src="Assets\abstact2 - Copy.png" class="float-right" alt="">
@@ -220,11 +220,11 @@
 
     <!-- FOOTER BEGINS HERE [   -----------  -----------    COMPLETED   -----------  -----------   ] -->
     <div class="container-fluid p-0 m-0">
-        <footer class="bg-info">
+        <footer>
 
             <div class="row">
                 <div class="col-2">
-                    <h3><strong style="padding-left: 30px; padding-top: 20px;">Logo</strong></h3>
+                    <h3 id="f-logo"> LOGO</h3>
                 </div>
                 <div class="col-2 .d-md-none .d-lg-block" id="f-1">
                     <ul style="list-style-type: none;">
@@ -257,7 +257,7 @@
                         <li>Buy</li>
                     </ul>
                 </div>
-                <div class="col-4 .d-md-none .d-lg-block">
+                <div class="col-4 .d-md-none .d-lg-block" id="f-4">
                     <h6>Sucbscribe to our newsletter and be the first to know about our updates</h6> <br>
                     <form class="form-inline">
                         <label class="sr-only" for="inlineFormInputName2">Name</label>

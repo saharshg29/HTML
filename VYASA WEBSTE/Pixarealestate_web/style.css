@@ -8,97 +8,8 @@ body{
   background-color: white;
 }
 
-footer{
-  color: whitesmoke ;
-  padding-top: 10px;
-  height: 250px;
-  width: 100%;
-}
-
-#img-1{
-  height: 40%;
-  width: auto;
-  padding-top: 20px;
-}
-#img-2{
-  height: 40%;
-  width: auto;
-  padding-top: 20px;
-}
-#img-3{
-  height: 40%;
-  width: auto;
-  padding-top: 20px;
-}
-
-.parent{
-  position: relative;
-}
-.over-img{
-  height: 80vh;
-  position: absolute;
-  top: 80%;
-  opacity: 1;
-  right: 10%;
-}
-
-.child{
-  height: 50px;
-  width: 20px;
-  position: absolute;
-}
-
-.container-fluid{
-  overflow: hidden;
-  }
-
-  .row .col-6 {
-    position: relative;
-  }
-
-
-.row .col-6 #right{
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-
-.text-center{
-  padding-top: 10px;
-}
-
-#section-1 .container .row .col-3 {
-  position: relative;
-}
-
-#section-1 .container .row .col-3 img{
-  position: absolute;
-}
-
-
-#section-1 .container .row .col-4 {
-  position: relative;
-}
-
-#section-1 .container .row .col-4 .card {
-  position: absolute;
-}
-
-#section-1 .container .row .col-5 {
-  position: relative;
-}
-
-#section-1 .container .row .col-5 #card-up {
-  position: absolute;
-  top: 0% ;
-}
-#section-1 .container .row .col-5 #card-bottom {
-  position: absolute;
-  bottom: 0%;
-}
-
-#container {
-  position:relative;
+.navbar{
+  background-color: transparent !important;
 }
 
 #img1{
@@ -157,6 +68,10 @@ nav ul li a{
   padding: 30px;
 }
 
+#section-1{
+  position: relative;
+}
+
 #h3{
   position: absolute;
   margin-left: 50px;
@@ -174,7 +89,7 @@ nav ul li a{
 #main-content{
   position: relative;
   width: 100%;
-  height: 200vh;
+  height: 185vh;
 }
 
 .para-1{
@@ -214,10 +129,103 @@ nav ul li a{
   position: absolute;
   float: right;
   right: 20vw;
-  bottom: 100px;
+  top: 108vh;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#img-1{
+  height: 40%;
+  width: auto;
+  padding-top: 20px;
+}
+#img-2{
+  height: 40%;
+  width: auto;
+  padding-top: 20px;
+}
+#img-3{
+  height: 40%;
+  width: auto;
+  padding-top: 20px;
+}
+
+.parent{
+  position: relative;
+}
+.over-img{
+  height: 80vh;
+  position: absolute;
+  top: 80%;
+  opacity: 1;
+  right: 10%;
+}
+
+#section-2{
+  background-color: #e1f7f4;
+}
+
+.child{
+  height: 50px;
+  width: 20px;
+  position: absolute;
+}
+
+.container-fluid{
+  overflow: hidden;
+  }
+
+  .row .col-6 {
+    position: relative;
+  }
+
+
+.row .col-6 #right{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.text-center{
+  padding-top: 10px;
+}
+
+#container {
+  position:relative;
 }
 
 #getonps{
   width: 48vw;
+}
+
+footer{
+  color: whitesmoke ;
+  padding-top: 10px;
+  height: 250px;
+  width: 100%;
+  background-color: #0390fc;
+}
+
+#f-logo{
+  width: 150px;
+  height: auto;
+}
+
+#f-1{
+  color: whitesmoke;
+}
+
+#f-2{
+  color: whitesmoke;
+}
+
+#f-3{
+  color: whitesmoke;
+}
+
+#f-4{
+  color: whitesmoke;
+}
+
+#inlineFormInputName2{
+  padding-right: 10px;
 }

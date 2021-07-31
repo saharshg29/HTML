@@ -1,0 +1,89 @@
+@media (max-width: 426px)
+{
+    #container-fluid{
+        position: relative;
+    }
+
+    #h3{
+        position: static;
+    }
+
+    #p{
+        position: static;
+    }
+
+    #img2{
+        position: static;
+    }
+
+    #img3{
+        position: static;
+    }
+
+    #main-content{
+        height: auto;
+    }
+
+    .para-1{
+        position: unset;
+        width: 100%;
+        height: auto;
+    }
+
+    #card-up{
+        position: static;
+    }
+
+    #card-1{
+        position: static;
+    }
+
+    #card-bottom{
+        position: static;
+        float: left;
+    }
+
+    #image-top{
+        height: 50px;
+        width: auto;
+        top: 20px;
+        padding-right: 0%;
+    }
+
+    #bottom-image{
+        height: 40px;
+        width: auto;
+        position: absolute;
+        bottom: 75vh;    
+    }
+
+    #f-1{
+        visibility: hidden
+    }
+
+    #f-2{
+        visibility: hidden;
+    }
+
+    #f-3{
+        visibility: hidden;
+    }
+
+    #f-4{
+        visibility: hidden;
+    }
+
+    #f-logo{
+        width: 80px;
+        height: auto;
+        padding: 10%;
+    }
+
+}
+
+@media (min-width: 768px){
+    #f-4{
+        visibility: hidden;
+    }
+
+}
