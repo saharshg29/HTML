@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var a = parseFloat(prompt('Enter first Number'));
+        var b = parseFloat(prompt('Enter second Number'));
+        var c = prompt('what action do you want to perform <br> addition multiplication subtraction division ')
+        switch (c) {
+            case '+':
+                var result = a + b;
+                document.write('your desired result is ' + result);
+                break;
+            case '-':
+                var result = a - b;
+                document.write('your desired result is ' + result);
+                break;
+            case '*':
+                var result = a * b;
+                document.write('your desired result is ' + result);
+                break;
+            case '/':
+                var result = a / b;
+                document.write('your desired result is ' + result);
+                break;
+            default:
+                document.write('Invalid Input.... Refresh this page to try again.')                
+                break;
+        }
+    </script>
+</body>
+
+</html>

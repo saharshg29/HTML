@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var house = function(length,width){
+            this.length = length;
+            this.width = width;
+            this.area = function(){
+                return this.length * this.width ;
+            }
+            this.perimeter = function(){
+                return 2*(this.length + this.width);
+            }
+        };
+
+        myHouse =new house(54,45);
+        urHouse =new house(84,46);
+
+        document.write(myHouse.area() + '<br>');
+        document.write(myHouse.perimeter() + '<br>');
+        document.write(urHouse.perimeter() + '<br>');
+        document.write(urHouse.area() + '<br>');
+
+    </script>
+</body>
+</html>

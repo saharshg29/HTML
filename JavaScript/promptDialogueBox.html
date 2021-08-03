@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var a = prompt('write your name');
+        document.write('hello ' + a)
+    </script>
+
+    <h4>
+        <strong>
+            In these section we will create a simple basic calculator using JavaScipt
+        </strong>
+    </h4>
+
+<!-- The main thing to be noticed here in these section are as folloow
+        parseInt is used for passing an integer data type value to a varriable
+        parseFloat is used for passing a float data type value to a varriable -->
+
+    <script>
+        var num1 = parseFloat(prompt('Enter first number '));
+        var num2 = parseFloat(prompt('Enter second number '));
+        var action = prompt('What action do you want to perform between these two numbers.... addition subtraction multiplicaton or division')
+        if (action == '+') {
+            var result = num1 + num2;
+            document.write(num1, ' + ', num2, ' = ', result);
+        }
+        if (action == '-') {
+            var result = num1 - num2;
+            document.write(num1, ' - ', num2, ' = ', result);
+        }
+        if (action == '*') {
+            var result = num1 * num2;
+            document.write(num1, ' * ', num2, ' = ', result);
+        }
+        if (action == '/') {
+            var result = num1 / num2;
+            document.write(num1, ' / ', num2, ' = ', result);
+        }
+        else {
+            document.write(' <br> Thannks for trying my calculator...')
+        }
+    </script>
+</body>
+
+</html>

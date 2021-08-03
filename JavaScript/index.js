@@ -78,4 +78,14 @@ function square(number) {
 console.log(square(4));
 console.log(square(400));
 
-console.ale
+alert("this is an alert box");
+
+name1 = "saharsh"
+
+function sayHello() {
+    alert("Say Hello to " + name1);
+}
+
+function sayAlert() {
+    alert('Times up ' + name1);
+}

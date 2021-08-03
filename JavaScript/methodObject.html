@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var Area = function () {
+            return this.length * this.width;
+        }
+
+        var myHouse = new Object();
+
+        myHouse.length = 50;
+        myHouse.width = 50;
+        myHouse.area = Area;
+        
+        document.write(myHouse.length + '*');
+        document.write(myHouse.width + '=');
+        document.write(myHouse.area() + '<br>');
+
+        var urHouse = new Object();
+
+        urHouse.length = 60;
+        urHouse.width = 30;
+        urHouse.area = Area ; 
+        document.write(urHouse.length + '*');
+        document.write(urHouse.width + '=');
+        document.write(urHouse.area());
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- What is happening here is that when we use confirmation type dialogue box then a dialogue box appears with two option [ok] or [cancel] -->
+    <!-- If a user presses [ok] then true boolean value is passed to assigned varriable a -->
+    <!-- If a user presses [cancel] then false boolean value is passed over to assigned varriable -->
+    <script>
+      var a =  confirm('Are you sure... you wanna visit your twitter account');
+      if (a == true) {
+          open('https://twitter.com/')
+      } else {
+          document.write('No action performed')
+      }
+    </script>
+</body>
+</html>
