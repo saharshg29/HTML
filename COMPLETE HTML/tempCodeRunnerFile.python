@@ -1,0 +1,8 @@
+year = 0
+tution = 10000
+new_tution = 20000
+net = 0
+while net < new_tution :
+    year += 1
+    net = tution * 1.07
+print(year)
